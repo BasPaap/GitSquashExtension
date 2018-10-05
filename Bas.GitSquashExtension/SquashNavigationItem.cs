@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Bas.GitSquashExtension
 {
-    [TeamExplorerNavigationItem(SquashNavigationItem.NavigationItemId, 1800)]    
+    [TeamExplorerNavigationItem(SquashNavigationItem.NavigationItemId, 1800, TargetPageId = SquashPage.Id)]    
     public class SquashNavigationItem : ITeamExplorerNavigationItem
     {
         public const string NavigationItemId = "C90006F1-AB77-4AA9-BD6C-181F2BA28BF9";
@@ -29,6 +29,7 @@ namespace Bas.GitSquashExtension
 
         public void Execute()
         {
+
             
         }
 
